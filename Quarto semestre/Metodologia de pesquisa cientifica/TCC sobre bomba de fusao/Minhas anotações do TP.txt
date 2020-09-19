@@ -1,0 +1,101 @@
+//PALAVRAS CHAVE: BOMBA DE INFUSAO, MICROCOMPUTADOR, TRATAMENTO TERAPELTICO, ANDROID
+//TITULO: TECNOLOGIA NO DESENVOLVIMENTO DE BOMBAS DE INFUSÃO 
+SISTEMA  EMBARCADO DE BOMBA DE FUSAO A SERINGA
+
+Resumo
+
+	A tecnologia da informação que tem cada dia mais ajudado a medicina a mudar os paradigmas da saúde. com o passar o tempo a melhoria na capacidade de
+processamento de dados tem aumentado exponencialmente e mais rápido até do que a previsão de Moore que diz que o poder de "processamento dos computadores
+dobraria a cada 18 meses (Achar uma fonte)". Consequentemente a  medicina que tem se aproveitado das melhorias na área da computação percebe essas mudanças e usufrui
+delas para melhoras nos seus processos. As bombas de fusao inteligentes tem ajudado no tratamento de paciêntes, automatizando o processo de aplicação
+de medicamentos, abrindo novas janelas de tempo para que sejam ocupadas com outras tarefas; sem dúvidas tempo é algo exenssial e o disperdicio dele nao
+pode ser o diferencial para uma vida ou um tratamento.
+
+//REFERENCIAR
+	Este projeto será apresentado é a referencia de um prototipo desenvolvido com um sistema embarcado, controlado por programação, com prdiféficos:
+Senssores, Motor de passo, Shield de comunicação bluetooth, botões atuadores de alarme
+//REFERENCIAR
+
+. O dispositivo é controlado por uma aplicação andoid em um celular.
+//FIM PAGINA 6
+
+INTRODUÇÃO
+	Segundo analises feiras em uma Unidade de terapia intensiva pediatrica(UTIP) feita por BOHOMOLA, foi identificado erro
+na velocidade da infusão tanto humano quanto do dispositivo entre outros. para reduzir os incidentes foram tomadas medidas para
+mitigação dos erros. Uma das medidas tomadas doi o desenvolvimento de um aplicativo mobile para monitoramento e controle da bomba de infusão
+A adição desse aplicativo a bomba de infusão trouxe melhoria é precição ao dispositivo além de diminuir os erros mencionados
+
+//DISPOSITIVOS DE INFUSAO
+
+DISPOSITIVOS DE INFUSAO
+	Bombas de infusao tem por objetivo a aplicação de medicamento no paciênte. Nem sempre a força para uso deste eaquipamento vem de dispositivos eletricos ou eletronicos
+alguns utilizam a gravidade. A aplicação da do medicamento quando é feita de forma controlada
+através de um dispositibo inteligente que alem de reduzir a chance reduz o tempo necessário para um tratamento devido o controle da aplicação da
+medicação de forma continua.
+//REFERENCIAR
+É composto principalmente de reservatório, tubo, sensores, atuadores, motor eletrico e placa controladora de sinais.// alem destes componentes o dispositivo
+existem sons de degurança para avisar sobre estados, erros, fim da infusão etc...
+//
+Bombas de infusão fazema aplicação de medicamento em estato liquido, a medicação é aplicada principalmente em rotas intravenosas, epidurais intra-arteriais
+
+TIPOS DE DISPOSITIVOS DE INFUSAO
+Para sanar alguns problemas de aplicacação, ou para baixar custos, existem diversos tipos de Bombas; O controlador de infusao manual é um dispositivo de baixo
+custo e  pouca precisão de infusão; Controlador semiautomatico, funciona por maio da força da gravidade, a vazão é controlada através de sensores de gotejamento;
+e as bombas de infusao 
+
+BOMBAS DE INFUSAO
+	O uso das bombas de infusão são mais necessários em áreas da saúde mais delicadas que há a necessidade precisão mais alta como em UTI, processos de
+quimioterapia, durante e pós cirurgias e outras terapias com controladas. "Bomba de infusão é um equipamento eletromagnético muito utilizado nos estabelecimentos
+nos estabelecimentos assistenciais de saúde (EAS) um equipamento destinado a regular o fluxo de líquidos administrados ao paciênte sob pressão positiva gerada a
+bomba" (JUNIOR, 2004)
+
+ROTINAS TESTES DE CALIBRAÇÃO
+	Para atender as expectativas de qualidade e as normativas vigentes,ao fabricar os dispositivos de infusão ele passam por testes rigorosos de qualidade e alem destes
+, para garantia de que ele atende as espectativas, esta dentro dos parÂmetros de qualidade e precisão tambem são feitas comparações com outros dispositivos de infusão certificados
+ antes de estarem disponpiveis para comercializaçã. A falta de certificação acarreta riscos na utilização destes equipamentos, a saúde dos paciÊntes e tecnicos ou
+pode levar a incidentes fatais.
+
+OBJETIVOS
+	O prototipo proposJosé Izaac leite de amorim no seu trabalho de conclusão de curso (TCC) no curso de: ciÊncia da computação da univerdade estadual de paraíba
+UEPB tem por objetivo
+//SITAÇÃO
+		Desenvolvolver um sistema integrado composto de hardware e software que permita ao profissional da saúde um acionamento manual (na bomba de infusão)
+ou semi-automatico (via smartphone); possíbilitanto um controle da programação do medicamento conforme prescrição médica; um monitoramento e administração do tratamento
+de infusão, no qual as informações dos paciêntes são acessiveis, para os autorizados, através de um sistema de consultas online ou da geração de relatórios tecnicos.
+O sistema prioriza sempre a segurança do paciênte, minimizando a taxa de erros e armazenando as informações no banco de dados.
+//SITAÇÃO
+		
+
+//CONTINUA PAGINA 17
+
+
+//PAGINA 25 NILSON
+//ALARMES
+	Alarmes são dispositivos de segurança que informam um estado da maquina, do sistema ou de algum dispositivo. Alarmes são muito utilizados em outros dispositivos
+para uma ação rápida aonde uma pessoa com entendimento tecnico do dispositivo pode tomar uma decisão. Visualmente a bomba de fusão além dos sons ela apresenta uma luz vermelha
+no display e no smartfone também é apresentada o status da falha.
+	no trabalho de (AMORIM, p.25, 2014) foi feita uma uma simulação e documentação do microcontrolador de arduíno, mostrando com imagem e algumas especificações de
+entradas e saídas do sistema, funcionamento da memória e controle do sistema e comunicação com o smartfone.
+	
+//APLICATIVO SMARTPHONE ANDROID
+	Tendo em vista uma  oportunidade de negocio viavel foi criada uma aplicação android para controle do sistema bombas de infusão. Baseado neste problema  o aplicativo
+atende aos requisitos necessários para o controle do dispositivo através de um  smartfone, se comunica, interage com  ele  de forma  dinamica e apresenta informações do estado
+do dispositivo na tela do smartfone. Essa abordagem visa a pratifidade, melhora na qualidade do atendimento e da interação com o dispositivo, de maneira eficaz é possível aplicar
+um tratamento que foi indicado ao paciênte sem a necessecidade da interação com um terceiro. O aplicativo pode controlar mais de uma bomba de infusão, sendo necessário somente
+um smartfone com o aplicativo para controlar os dispositivos de infusão,  O controle é feito atravéz de um codigo de segurança da própria bomba de infusão. A aplicação de medicamentos
+é feita de maneira automática de acordo com as especificações informadas pelo responsável.O aplicativo permite a interrupção do tratamento a qualquer momento, há disponível um botão de paude no menu do aplicativo,  após o inicio do tratamento ele pode ser acio-
+nado a qualquer momento. Se o tratamento for interrompido por qualquer motivo será necessária uma nova programação do aplicativo
+	Outras aplicações voltadas para conexão de dispositivos bluetooth genericas tambem podem ser utilizadas para mudar o estado da bomba de infusão. Isso pode ser considerado
+um risco a segurança
+	
+		//FIGURA 9
+
+//APLICATIVO ARDUINO
+	O algoritimo utilizado para controlar todos os dispositivos encontra-se na memoria interna do PIC do arduino mega. A linguagem de programação C é utilizada neste contexto
+para controlar todo o sistema e os dispositivos de maneira dinamica e capas operar a bomba de infusão de maneira satisfatória a atender os requisitos necessáros.
+	Os sensores utilizados para controle do tratamento visam almento da precisão e segurança da bomba de infusão, todos os dados coletados pelo sensor são convertidos em informação
+digital e enviados para o display do smartphone ou da bomba, possibilitando o monitorar o funcionamento. Sensores de entrada ou saída são utilizados para a iniciaçização de
+um tratamento, permitem o funcionamento somente quando é detectada a seringa esta acoplada ou quando o embolo chega ao final da infusão do medicamento.O estabelecimento da vazão
+de medicamentos é feito de maneira controlada pelo arduíno. 
+
+
